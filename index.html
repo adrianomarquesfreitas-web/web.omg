@@ -1,11 +1,112 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Escoliose Brasil</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+  <!-- Botão do menu móvel  -->
+  <button class="menu-toggle" id="menu-toggle">
+    ☰
+  </button>
+
+  <!-- CONTAINER PRINCIPAL -->
+  <div class="container">
     
+    <!-- MENU LATERAL -->
+    <nav class="sidebar" id="sidebar">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="teste3.html">Cadastro de voluntários</a></li>
+        <li><a href="projetos.html">Projeto</a></li>
+        <li><a href="escoliose.html">O que é Escoliose</a></li>
+      </ul>
+    </nav>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <div class="main-content">
+      <header class="topbar">
+        <h1>Escoliose Brasil</h1>
+        <nav class="topmenu">
+          <a href="#">Área do voluntário</a>
+          <a href="#">Configurações</a>
+          <a href="#">Sair</a>
+        </nav>
+      </header>
+
+      <section class="content">
+        <h2>Escoliose Brasil - Cuidando de Colunas, Transformando Vidas</h2>
+        <p>
+          A <strong>Escoliose Brasil</strong> é uma organização sem fins lucrativos dedicada à conscientização,
+          prevenção e tratamento da escoliose em todo o país. Nosso propósito é garantir que crianças, jovens e adultos
+          tenham acesso à informação, diagnóstico precoce e acompanhamento especializado, independentemente de sua condição social.
+        </p>
+
+        <img src="https://placehold.co/900x400?text=Equipe+Escoliose+Brasil" alt="Equipe de voluntários da ONG Escoliose Brasil">
+        <p class="image-caption">Nossa equipe multidisciplinar de voluntários em uma das ações de atendimento comunitário.</p>
+
+        <h3>🌿 Nossa Missão</h3>
+        <p>
+          Promover saúde e qualidade de vida a pessoas com escoliose por meio de atendimentos gratuitos,
+          campanhas educativas e parcerias com profissionais e instituições de saúde.
+        </p>
+
+        <img src="https://placehold.co/900x400?text=Atendimento+Gratuito" alt="Médicos atendendo paciente com escoliose">
+        <p class="image-caption">Atendimento gratuito a pacientes durante uma ação do projeto “Coluna Saudável”.</p>
+
+        <h3>💙 Nossos Valores</h3>
+        <ul>
+          <li><strong>Empatia:</strong> Cuidamos de cada paciente com atenção e respeito.</li>
+          <li><strong>Transparência:</strong> Agimos com ética e responsabilidade social.</li>
+          <li><strong>Comprometimento:</strong> Buscamos constantemente melhorar nossos serviços e ampliar nosso impacto.</li>
+          <li><strong>Colaboração:</strong> Trabalhamos em rede com voluntários e parceiros em todo o Brasil.</li>
+        </ul>
+
+        <img src="https://placehold.co/900x400?text=Projeto+Movimente-se" alt="Aula de fisioterapia comunitária">
+        <p class="image-caption">Participantes do projeto “Movimente-se” durante uma sessão de fisioterapia coletiva.</p>
+
+        <h3>🌎 Projetos em Andamento</h3>
+        <p>
+          Atualmente, a ONG coordena o projeto <strong>“Coluna Saudável nas Escolas”</strong>, que leva triagens posturais
+          e orientações sobre a escoliose para alunos da rede pública. Também realizamos o programa
+          <strong>“Movimente-se”</strong>, oferecendo fisioterapia gratuita e acompanhamento especializado a famílias de baixa renda.
+        </p>
+
+        <h3>🤝 Como Ajudar</h3>
+        <p>
+          Você pode participar como voluntário, realizar doações ou se tornar um parceiro institucional.
+          Cada contribuição — pequena ou grande — ajuda a transformar vidas e espalhar mais saúde e conhecimento pelo Brasil.
+        </p>
+      </section>
+    </div>
+  </div>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <h2>Assine nossa Newsletter</h2>
+    <p>Receba atualizações sobre projetos, eventos e ações voluntárias diretamente no seu e-mail.</p>
+    <form id="newsletterForm">
+      <label for="nomeNewsletter">Nome:</label>
+      <input type="text" id="nomeNewsletter" name="nomeNewsletter" required />
+
+      <label for="emailNewsletter">Email:</label>
+      <input type="email" id="emailNewsletter" name="emailNewsletter" required />
+
+      <button type="submit">Inscrever-se</button>
+    </form>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="rodape">
+    <p>&copy; 2025 Escoliose Brasil. Todos os direitos reservados.</p>
+    <p>Endereço: SCS Bloco B Ed. São Caetano - Brasília, DF</p>
+    <p>Contato: (61) 99999-9999 | contato@escoliosebrasil.org</p>
+  </footer>
+
+  <script src="teste.js"></script>
+  
 </body>
 </html>
